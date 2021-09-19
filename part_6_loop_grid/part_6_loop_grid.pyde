@@ -9,7 +9,7 @@ y = 0
 while x <= width:
     line(x, 0, x, height)
     x = x + 100
-    
+
 while y <= height:
     line(0, y, width, y)
     y = y + 100

@@ -21,7 +21,7 @@ def drawFlag(x, y, fh):
     fill("#000080") # blue
     circle(x+fw/2, y+fh/2,bh*9//10)
 
-  
+
 # draw everything
 size(1400, 900)
 background("#aabbcc")

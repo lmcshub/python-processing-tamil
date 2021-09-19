@@ -7,7 +7,7 @@ size(900, 900)
 strokeWeight(5)
 
 def drawVLines(xList):
-    for x in xList:      
+    for x in xList:
         line(x, 0, x, height)
 
 drawVLines([100, 200, 300, 600, 800])

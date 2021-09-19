@@ -13,13 +13,13 @@ def drawBall(x, y):
     circle(x, y, 100)
     px = x
     py = y
-    
+
 
 def setup():
     size(800, 800)
     drawBall(width/2, height/2)
-    
 
-def draw(): 
+
+def draw():
     drawBall(px + 1, py)
-    
+

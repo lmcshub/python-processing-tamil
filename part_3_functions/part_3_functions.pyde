@@ -5,7 +5,7 @@
 # Reference for flag size and colors:
 # Refer: https://en.wikipedia.org/wiki/Flag_of_India
 
-# drawFlag draws a Flag of size 450x300 
+# drawFlag draws a Flag of size 450x300
 # at x, y co-ordinates
 def drawFlag(x, y):
     fh = 300
@@ -19,7 +19,7 @@ def drawFlag(x, y):
     fill("#000080") # blue
     circle(x+fw/2, y+fh/2, 90)
 
-  
+
 # draw everything
 size(1400, 900)
 background("#aabbcc")

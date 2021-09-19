@@ -11,7 +11,7 @@ def drawVLines(xList):
     i = 0
     while i < len(xList):
         line(xList[i], 0, xList[i], height)
-        i = i+1        
+        i = i+1
 
 drawVLines([100, 200, 300, 600, 800])
 
