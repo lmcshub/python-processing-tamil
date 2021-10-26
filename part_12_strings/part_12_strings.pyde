@@ -1,3 +1,7 @@
+# This sketch demonstrates string operations and string immutability
+# Youtube Playlist:
+# https://www.youtube.com/playlist?list=PL5eh956CtlEQxk52EOq53pjz8qWZjcvWk
+
 # write draws the given input as text in the middle of the window
 def write(param):
     background("#ccff00")
